@@ -3,7 +3,7 @@
   $fileExtension = $_POST['file_extension'];
 
   // START CONNECT
-  $mysqli = new mysqli("DB_HOST", "DB_USER", "DB_PASSWORD", "personal");
+  $mysqli = new mysqli("DB_HOST", "DB_USER", "DB_PASSWORD", "DB_NAME");
   if($mysqli->connect_error) {
     exit('Error connecting to database');
   }
