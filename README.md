@@ -4,4 +4,4 @@ Simple POST API to request a file from a server with a backend SQL database stor
 Hi! To test these APIs you can send a POST request to either of the following:
 
 http://www.underhud.com/api/file/ - POST->file_name->resume.pdf
-http://www.underhud.com/api/list/ - POST->file_extension->pdf [OPTIONAL]
+http://www.underhud.com/api/listfiles/ - POST->file_extension->pdf [OPTIONAL]
