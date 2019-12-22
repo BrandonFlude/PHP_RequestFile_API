@@ -1,0 +1,4 @@
+Hi! To test these APIs you can send a POST request to either of the following:
+
+http://www.underhud.com/api/file/ - POST->file_name->resume.pdf
+http://www.underhud.com/api/list/ - POST->file_extension->pdf [OPTIONAL]
